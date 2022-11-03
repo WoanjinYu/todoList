@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { KeyboardAvoidingView, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
 import Task from './components/Task';
 
-
+//여기다가 수정후 커밋 할거임~~
 
 export default function App() {
   const [task,setTask] = useState();

@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { KeyboardAvoidingView, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
 import Task from './components/Task';
 
-
+//마스터 브랜치도 수정할 거임 머지하면 충돌일어나겠지??
 
 export default function App() {
   const [task,setTask] = useState();
